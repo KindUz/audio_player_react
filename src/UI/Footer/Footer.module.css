@@ -1,0 +1,9 @@
+.header {
+    padding: 244px 0 60px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    border-right: 2px solid rgba(42, 41, 41, 0.334);
+}

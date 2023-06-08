@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import playlists from "./utils/playlists";
+import Header from "./UI/Header/Header";
+import Footer from "./UI/Footer/Footer";
+import PlaylistList from "./components/PlaylistList";
+import TrackList from "./components/TrackList";
+import './style/style.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          
+          <Route
+            exact
+            path="/"
+            element={<PlaylistList playlists={playlists} />}
+          />
+          <Route
+            exact
+            path="/playlist/:id"
+            element={<TrackList playlists={playlists} />}
+          />
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.Header {
+    border-bottom: 2px solid rgba(42, 41, 41, 0.334);
+    border-right: 2px solid rgba(42, 41, 41, 0.334);
+    position: relative;
+}
+
+.Header__item {
+    padding: 58px 0 103px 203px;
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+    height: 100%;
+}
+
+.header__img {
+    border-radius: 50%;
+}
+
+.header__body {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    row-gap: 22px;
+}
+
+.header__name {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.header__playlists, .header__tracks {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #C97F28;
+}
