@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/audio_player_react/static/css/main.de8e146e.css",
+    "main.js": "/audio_player_react/static/js/main.d4b0b177.js",
+    "static/media/microsoftsansserif.ttf": "/audio_player_react/static/media/microsoftsansserif.d3ebf49c8cc1ec78ac1e.ttf",
+    "index.html": "/audio_player_react/index.html",
+    "main.de8e146e.css.map": "/audio_player_react/static/css/main.de8e146e.css.map",
+    "main.d4b0b177.js.map": "/audio_player_react/static/js/main.d4b0b177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de8e146e.css",
+    "static/js/main.d4b0b177.js"
+  ]
+}
